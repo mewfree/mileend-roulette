@@ -9,10 +9,16 @@ html
         h1 Mile-End Roulette
       .body
         h2 Welcome to the Mile-End roulette!
-        p Feeling hungry? Can't decide where to go eat? Play the Mile-End roulette!
+        p Feeling hungry? Thirsty? Both? Can't decide where to go? Play the Mile-End roulette!
         .button
-          button I'M HUNGRY!
-        h1#result
+          button#hungry I'M HUNGRY!
+        h1#resulth
+        .button
+          button#thirsty I'M THIRSTY!
+        h1#resultt
+        .button
+          button#both I'M BOTH!
+        h1#resultb
         //-h2 List of restaurants available:
         //-ul
           //-for restaurant in data.restaurants
@@ -21,8 +27,18 @@ html
         p Created with love in Montreal by Mister D.
 
       script.
-        $("button").click(function() {
+        $("#hungry").click(function() {
           $.get('/hungry', function(data) {
-            $('#result').html(data.name);
+            $('#resulth').html(data.name);
+            });
+        });
+        $("#thirsty").click(function() {
+          $.get('/thirsty', function(data) {
+            $('#resultt').html(data.name);
+            });
+        });
+        $("#both").click(function() {
+          $.get('/both', function(data) {
+            $('#resultb').html(data.name);
             });
         });

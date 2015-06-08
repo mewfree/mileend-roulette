@@ -23,6 +23,16 @@ app.get('/hungry', function(req, res) {
   res.send(random_restau);
 });
 
+app.get('/thirsty', function(req, res) {
+  var random_bar = _.sample(data.bars);
+  res.send(random_bar);
+});
+
+app.get('/both', function(req, res) {
+  var random_both = _.sample(data.both);
+  res.send(random_both);
+});
+
 var server = app.listen(3000, function () {
 
   var host = server.address().address;

@@ -3,6 +3,25 @@
     {"name": "La Panthère Verte / Green Panther", "address": "160 Saint-Viateur E"},
     {"name": "Burger de Ville", "address": "5282 Saint-Laurent"},
     {"name": "Pizza Saint-Viateur", "address": "15 Saint-Viateur O"},
-    {"name": "Comptoir 21", "address": "21 Saint-Viateur O"}
+    {"name": "Comptoir 21", "address": "21 Saint-Viateur O"},
+    {"name": "Pizzeria Magpie", "address": "16 Maguire"},
+    {"name": "Boulangerie Clarke", "address": "29 Saint-Viateur O"},
+    {"name": "Fairmount Bagel", "address": "75 Fairmount O"},
+    {"name": "St-Viateur Bagel", "address": "263 Saint-Viateur O"},
+    {"name": "Le Jardin du Cari", "address": "5554 Saint-Laurent"},
+    {"name": "Smile", "address": "5486 Saint-Laurent"}
+  ],
+  "bars": [
+    {"name": "Waverly", "address": "5550 Saint-Laurent"},
+    {"name": "Chez Serge", "address": "5301 Saint-Laurent"},
+    {"name": "The Sparrow", "address": "5322 Saint-Laurent"},
+    {"name": "Dieu du Ciel!", "address": "29 Laurier O"},
+    {"name": "Casa Del Popolo", "address": "4873 Saint-Laurent"}
+  ],
+  "both": [
+    {"name": "The Sparrow", "address": "5322 Saint-Laurent"},
+    {"name": "Casa Del Popolo", "address": "4873 Saint-Laurent"},
+    {"name": "Thazard", "address": "5329 Saint-Laurent"},
+    {"name": "L'Gros Luxe", "address": "150 Bernard O"}
   ]
 }
