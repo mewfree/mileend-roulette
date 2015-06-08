@@ -1,22 +1,28 @@
 html
   head
-    title!= title
+    title Mile-End Roulette
     link(rel='stylesheet', href='style.css')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js')
   body
-    h1!= message
-    h2 Welcome to the Mile-End roulette!
-    p Feeling hungry? Can't decide where to go eat? Play the Mile-End roulette!
-    button I'M HUNGRY!
-    p#result
-    h2 List of restaurants available:
-    ul
-      for restaurant in data.restaurants
-        li= restaurant.name
+    .wrap
+      .header
+        h1 Mile-End Roulette
+      .body
+        h2 Welcome to the Mile-End roulette!
+        p Feeling hungry? Can't decide where to go eat? Play the Mile-End roulette!
+        .button
+          button I'M HUNGRY!
+        h1#result
+        //-h2 List of restaurants available:
+        //-ul
+          //-for restaurant in data.restaurants
+            //-li= restaurant.name
+      .footer
+        p Created with love in Montreal by Mister D.
 
-    script.
-      $("button").click(function() {
-        $.get('/hungry', function(data) {
-          $('#result').html(data.name);
-          });
-      });
+      script.
+        $("button").click(function() {
+          $.get('/hungry', function(data) {
+            $('#result').html(data.name);
+            });
+        });

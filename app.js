@@ -15,7 +15,7 @@ app.use(stylus.middleware ({
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-  res.render('index', {title: 'Hey', message: 'Hello there!', data: data});
+  res.render('index', {data: data});
 });
 
 app.get('/hungry', function(req, res) {
