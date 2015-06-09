@@ -28,17 +28,17 @@ html
 
       script.
         $("#hungry").click(function() {
-          $.get('/hungry', function(data) {
+          $.get('/hungry/random', function(data) {
             $('#resulth').html(data.name);
             });
         });
         $("#thirsty").click(function() {
-          $.get('/thirsty', function(data) {
+          $.get('/thirsty/random', function(data) {
             $('#resultt').html(data.name);
             });
         });
         $("#both").click(function() {
-          $.get('/both', function(data) {
+          $.get('/both/random', function(data) {
             $('#resultb').html(data.name);
             });
         });
