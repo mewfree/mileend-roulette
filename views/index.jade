@@ -12,13 +12,16 @@ html
         p Feeling hungry? Thirsty? Both? Can't decide where to go? Play the Mile-End roulette!
         .button
           button#hungry I'M HUNGRY!
-        h1#resulth
+        h1#resulthn
+        h2#resultha
         .button
           button#thirsty I'M THIRSTY!
-        h1#resultt
+        h1#resulttn
+        h2#resultta
         .button
           button#both I'M BOTH!
-        h1#resultb
+        h1#resultbn
+        h2#resultba
         //-h2 List of restaurants available:
         //-ul
           //-for restaurant in data.restaurants
@@ -29,16 +32,19 @@ html
       script.
         $("#hungry").click(function() {
           $.get('/hungry/random', function(data) {
-            $('#resulth').html(data.name);
+            $('#resulthn').html(data.name);
+            $('#resultha').html('('+data.address+')');
             });
         });
         $("#thirsty").click(function() {
           $.get('/thirsty/random', function(data) {
-            $('#resultt').html(data.name);
+            $('#resulttn').html(data.name);
+            $('#resultta').html('('+data.address+')');
             });
         });
         $("#both").click(function() {
           $.get('/both/random', function(data) {
-            $('#resultb').html(data.name);
+            $('#resultbn').html(data.name);
+            $('#resultba').html('('+data.address+')');
             });
         });
