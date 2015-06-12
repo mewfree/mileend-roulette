@@ -10,18 +10,12 @@ html
       .body
         h2 Welcome to the Mile-End roulette!
         p Feeling hungry? Thirsty? Both? Can't decide where to go? Play the Mile-End roulette!
-        .button
-          button#hungry I'M HUNGRY!
-        h1#resulthn
-        h2#resultha
-        .button
-          button#thirsty I'M THIRSTY!
-        h1#resulttn
-        h2#resultta
-        .button
-          button#both I'M BOTH!
-        h1#resultbn
-        h2#resultba
+        - list = ["hungry", "thirsty", "both"]
+        each item in list
+          .button
+            button(id=item)= "I'M " + item.toUpperCase()
+          h1(id='resultname'+item)
+          h2(id='resultaddress'+item)
         //-h2 List of restaurants available:
         //-ul
           //-for restaurant in data.restaurants
@@ -30,21 +24,15 @@ html
         p Created with love in Montreal by Mister D.
 
       script.
-        $("#hungry").click(function() {
-          $.get('/hungry/random', function(data) {
-            $('#resulthn').html(data.name);
-            $('#resultha').html('('+data.address+')');
-            });
-        });
-        $("#thirsty").click(function() {
-          $.get('/thirsty/random', function(data) {
-            $('#resulttn').html(data.name);
-            $('#resultta').html('('+data.address+')');
-            });
-        });
-        $("#both").click(function() {
-          $.get('/both/random', function(data) {
-            $('#resultbn').html(data.name);
-            $('#resultba').html('('+data.address+')');
-            });
-        });
+        function btn(state) {
+          $('#'+state).click(function() {
+            $.get('/'+state+'/random', function(data) {
+              $('#resultname'+state).html(data.name);
+              $('#resultaddress'+state).html('('+data.address+')');
+              });
+          });
+        }
+
+        btn('hungry');
+        btn('thirsty');
+        btn('both');
