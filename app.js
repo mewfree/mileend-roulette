@@ -18,35 +18,28 @@ app.get('/', function (req, res) {
   res.render('index', {data: data});
 });
 
-app.get('/hungry/random', function(req, res) {
-  var random_restau = _.sample(data.restaurants);
-  res.send(random_restau);
-});
+function apl(state) {
+  app.get('/'+state+'/list', function(req, res) {
+    var list = data[state];
+    res.send(list);
+  });
+}
 
-app.get('/hungry/list', function(req, res) {
-  var list_restau = data.restaurants;
-  res.send(list_restau);
-});
+function apr(state) {
+  app.get('/'+state+'/random', function(req, res) {
+    var random = _.sample(data[state]);
+    res.send(random);
+  });
+}
 
-app.get('/thirsty/random', function(req, res) {
-  var random_bar = _.sample(data.bars);
-  res.send(random_bar);
-});
+function apb(state) {
+  apl(state);
+  apr(state);
+}
 
-app.get('/thirsty/list', function(req, res) {
-  var list_bars = data.bars;
-  res.send(list_bars);
-});
-
-app.get('/both/random', function(req, res) {
-  var random_both = _.sample(data.both);
-  res.send(random_both);
-});
-
-app.get('/both/list', function(req, res) {
-  var list_both = data.both;
-  res.send(list_both);
-});
+apb('hungry');
+apb('thirsty');
+apb('both');
 
 var server = app.listen(3000, function () {
 

@@ -1,5 +1,5 @@
 {
-  "restaurants": [
+  "hungry": [
     {"name": "La Panthère Verte / Green Panther", "address": "160 Saint-Viateur E"},
     {"name": "Burger de Ville", "address": "5282 Saint-Laurent"},
     {"name": "Pizza Saint-Viateur", "address": "15 Saint-Viateur O"},
@@ -11,7 +11,7 @@
     {"name": "Le Jardin du Cari", "address": "5554 Saint-Laurent"},
     {"name": "Smile", "address": "5486 Saint-Laurent"}
   ],
-  "bars": [
+  "thirsty": [
     {"name": "Waverly", "address": "5550 Saint-Laurent"},
     {"name": "Chez Serge", "address": "5301 Saint-Laurent"},
     {"name": "The Sparrow", "address": "5322 Saint-Laurent"},
