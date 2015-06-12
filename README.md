@@ -12,12 +12,12 @@ API endpoint: http://www.mileendroulette.com
 The three available states are:
   * hungry: for restaurants
   * thirsty: for bars
-  * both: for bars where you can eat / restaurants where you can have an alcoholic drink
+  * both: for bars where you can eat / restaurants where you can have alcoholic drinks
 
 Example:
 
 http://www.mileendroulette.com/hungry/list will list all restaurants
-http://www.mileendroulette.com/thirst/random will randomly select a bar
+http://www.mileendroulette.com/thirsty/random will randomly select a bar
 
 The result is in the JSON format:
 
