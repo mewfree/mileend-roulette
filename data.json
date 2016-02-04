@@ -9,19 +9,35 @@
     {"name": "Fairmount Bagel", "address": "75 Fairmount O"},
     {"name": "St-Viateur Bagel", "address": "263 Saint-Viateur O"},
     {"name": "Le Jardin du Cari", "address": "5554 Saint-Laurent"},
-    {"name": "Smile", "address": "5486 Saint-Laurent"}
+    {"name": "Smile", "address": "5486 Saint-Laurent"},
+    {"name": "Café District", "address": "78 Saint-Viateur E"},
+    {"name": "Ta Chido", "address": "5611 Park"},
+    {"name": "Latina", "address": "185 Saint-Viateur O"},
+    {"name": "Maestro", "address": "77 Saint-Viateur O"},
+    {"name": "Pita Pan", "address": "125 Saint-Viateur O"},
+    {"name": "Puca Puca", "address": "5402 Saint-Laurent"},
+    {"name": "Soupçon Cochon", "address": "5414 Saint-Laurent"},
+    {"name": "Arahova Souvlaki", "address": "256 Saint-Viateur O"},
+    {"name": "Chez Claudette", "address": "351 Laurier E"},
+    {"name": "Harbin", "address": "4801 Saint-Laurent"},
+    {"name": "Boucherie Lawrence's", "address": "5237 Saint-Laurent"},
+    {"name": "B&M", "address": "120 Saint-Viateur O"},
+    {"name": "MAÏS", "address": "5439 Saint-Laurent"}
   ],
   "thirsty": [
     {"name": "Waverly", "address": "5550 Saint-Laurent"},
     {"name": "Chez Serge", "address": "5301 Saint-Laurent"},
     {"name": "The Sparrow", "address": "5322 Saint-Laurent"},
     {"name": "Dieu du Ciel!", "address": "29 Laurier O"},
-    {"name": "Casa Del Popolo", "address": "4873 Saint-Laurent"}
+    {"name": "Casa Del Popolo", "address": "4873 Saint-Laurent"},
+    {"name": "Ping Pong Club", "address": "5788 Saint-Laurent"},
+    {"name": "HELM", "address": "273 Bernard O"}
   ],
   "both": [
     {"name": "The Sparrow", "address": "5322 Saint-Laurent"},
     {"name": "Casa Del Popolo", "address": "4873 Saint-Laurent"},
     {"name": "Thazard", "address": "5329 Saint-Laurent"},
-    {"name": "L'Gros Luxe", "address": "150 Bernard O"}
+    {"name": "L'Gros Luxe", "address": "150 Bernard O"},
+    {"name": "Snack'n Blues", "address": "5260 Saint-Laurent"}
   ]
 }
