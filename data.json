@@ -21,7 +21,8 @@
     {"name": "Harbin", "address": "4801 Saint-Laurent"},
     {"name": "Boucherie Lawrence's", "address": "5237 Saint-Laurent"},
     {"name": "B&M", "address": "120 Saint-Viateur O"},
-    {"name": "MAÏS", "address": "5439 Saint-Laurent"}
+    {"name": "MAÏS", "address": "5439 Saint-Laurent"},
+    {"name": "Euro Déli Batory", "address": "115 Saint-Viateur O"}
   ],
   "thirsty": [
     {"name": "Waverly", "address": "5550 Saint-Laurent"},
