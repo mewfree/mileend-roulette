@@ -18,28 +18,28 @@ app.get('/', function (req, res) {
   res.render('index', {data: data});
 });
 
-function apl(state) {
+function apl(state, filter) {
   app.get('/'+state+'/list', function(req, res) {
-    var list = data[state];
+    var list = data.filter(filter)
     res.send(list);
   });
 }
 
-function apr(state) {
+function apr(state, filter) {
   app.get('/'+state+'/random', function(req, res) {
-    var random = _.sample(data[state]);
+    var random = _.sample(data.filter(filter));
     res.send(random);
   });
 }
 
-function apb(state) {
-  apl(state);
-  apr(state);
+function apb(state, filter) {
+  apl(state, filter);
+  apr(state, filter);
 }
 
-apb('hungry');
-apb('thirsty');
-apb('both');
+apb('hungry', x => x.lunch);
+apb('thirsty', x => x.drink);
+apb('both', x => x.lunch && x.drink);
 
 var server = app.listen(process.env.PORT || 3000, function () {
 
