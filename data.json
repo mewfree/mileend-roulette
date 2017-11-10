@@ -40,6 +40,7 @@
   {"name": "Barcola Bistro", "address": "5607 Park", "comment": "Italian", "lunch": true},
   {"name": "Banh Mi Banh Yiu", "address": "255A Saint-Viateur O", "comment": "Vietnamese", "lunch": true, "healthy": true},
   {"name": "Liv Salades", "address": "5350 Saint-Laurent", "comment": "Salads", "lunch": true, "healthy": true},
+  {"name": "Lloydie's", "address": "66 Saint-Viateur O", "comment": "Caribbean", "lunch": true},
   {"name": "Pub Bishop & Bagg", "address": "52 Saint-Viateur O", "comment": "British pub", "lunch": true, "drink": true},
   {"name": "Waverly", "address": "5550 Saint-Laurent", "comment": "Neighbourhood bar", "lunch": true, "drink": true},
   {"name": "Thazard", "address": "5329 Saint-Laurent", "comment": "Japanese", "lunch": true, "drink": true},
