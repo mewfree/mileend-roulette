@@ -14,7 +14,7 @@
   {"name": "Ta Chido", "address": "5611 Park", "comment": "Mexican", "lunch": true},
   {"name": "Latina", "address": "185 Saint-Viateur O", "comment": "Gourmet grocery store", "lunch": true, "healthy": true},
   {"name": "Maestro", "address": "77 Saint-Viateur O", "comment": "Sandwiches", "lunch": true, "healthy": true},
-  {"name": "Pita Pan", "address": "125 Saint-Viateur O", "comment": "Mediterranean", "lunch": true, "healthy": true},
+  {"name": "Pita Pan", "address": "125 Saint-Viateur O", "comment": "Mediterranean", "lunch": true},
   {"name": "Puca Puca", "address": "5402 Saint-Laurent", "comment": "Peruvian", "lunch": true},
   {"name": "Soupçon Cochon", "address": "5414 Saint-Laurent", "comment": "Soup", "lunch": true, "healthy": true},
   {"name": "Arahova Souvlaki", "address": "256 Saint-Viateur O", "comment": "Greek", "lunch": true},
