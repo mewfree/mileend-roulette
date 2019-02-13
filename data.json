@@ -30,7 +30,7 @@
   {"name": "Sencha", "address": "5602 Saint-Laurent", "comment": "Vietnamese", "lunch": true},
   {"name": "Serrano", "address": "161 Saint-Viateur O", "comment": "Peruvian BBQ chicken", "lunch": true},
   {"name": "Fabergé", "address": "25 Fairmount O", "comment": "Brunch", "lunch": true},
-  {"name": "Le Falco", "address": "605 Gaspe", "comment": "Japanese", "lunch": true},
+  {"name": "Le Falco", "address": "605 de Gaspé", "comment": "Japanese", "lunch": true, "coffee": true},
   {"name": "Il Miglio", "address": "5235 Saint-Laurent", "comment": "Artisanal pasta", "lunch": true},
   {"name": "Lumière de l'Inde", "address": "5163 Saint-Laurent", "comment": "Indian", "lunch": true},
   {"name": "Restaurant Thaïlande", "address": "88 Bernard", "comment": "Thai", "lunch": true},
@@ -58,5 +58,11 @@
   {"name": "Casa Del Popolo", "address": "4873 Saint-Laurent", "comment": "Hipster bar, best nachos in town", "drink": true},
   {"name": "Larrys", "address": "9 Fairmount E", "comment": "European-style café", "coffee": true},
   {"name": "Café Névé", "address": "160 Saint-Viateur E", "comment": "Coffee", "coffee": true},
-  {"name": "Café Brooklyn", "address": "71 Saint-Viateur E", "comment": "Coffee & healthy lunch", "lunch": true, "healthy": true, "coffee": true}
+  {"name": "Café Brooklyn", "address": "71 Saint-Viateur E", "comment": "Coffee & healthy lunch", "lunch": true, "healthy": true, "coffee": true},
+  {"name": "Café Olimpico", "address": "124 Saint-Viateur O", "comment": "Hipster italian café", "coffee": true},
+  {"name": "Myriade", "address": "251 Saint-Viateur O", "comment": "Coffee", "coffee": true},
+  {"name": "Les Impertinentes", "address": "5380 Saint-Laurent", "comment": "Coffee", "coffee": true},
+  {"name": "Pastel Rita", "address": "5761 Saint-Laurent", "comment": "Coffee", "coffee": true},
+  {"name": "Café Gaspé", "address": "5455 de Gaspé", "comment": "Coffee", "coffee": true},
+  {"name": "Café 100%", "address": "5445 de Gaspé", "comment": "Coffee", "coffee": true}
 ]
