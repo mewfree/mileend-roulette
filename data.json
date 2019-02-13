@@ -57,5 +57,6 @@
   {"name": "Snack'n Blues", "address": "5260 Saint-Laurent", "comment": "All is in the name", "drink": true},
   {"name": "Casa Del Popolo", "address": "4873 Saint-Laurent", "comment": "Hipster bar, best nachos in town", "drink": true},
   {"name": "Larrys", "address": "9 Fairmount E", "comment": "European-style café", "coffee": true},
-  {"name": "Café Névé", "address": "160 Saint-Viateur E", "comment": "Great coffee", "coffee": true}
+  {"name": "Café Névé", "address": "160 Saint-Viateur E", "comment": "Coffee", "coffee": true},
+  {"name": "Café Brooklyn", "address": "71 Saint-Viateur E", "comment": "Coffee & healthy lunch", "lunch": true, "healthy": true, "coffee": true}
 ]
