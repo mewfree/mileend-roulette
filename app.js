@@ -6,27 +6,27 @@ var express = require('express')
 var app = express();
 
 app.set('views', './views');
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
-app.use(stylus.middleware ({
+app.use(stylus.middleware({
   src: __dirname + '/views',
   dest: __dirname + '/public'
 }));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-  res.render('index', {data: data});
+  res.render('index', { data: data });
 });
 
 function apl(state, filter) {
-  app.get('/'+state+'/list', function(req, res) {
+  app.get('/' + state + '/list', function (req, res) {
     var list = data.filter(filter)
     res.send(list);
   });
 }
 
 function apr(state, filter) {
-  app.get('/'+state+'/random', function(req, res) {
+  app.get('/' + state + '/random', function (req, res) {
     var random = _.sample(data.filter(filter));
     res.send(random);
   });
