@@ -6,8 +6,8 @@
   "dependencies": {
     "express": "^4.12.4",
     "jade": "^1.10.0",
-    "lodash": "^3.9.3",
-    "stylus": "^0.51.1"
+    "lodash": "^4.17.21",
+    "stylus": "^0.59.0"
   },
   "devDependencies": {},
   "scripts": {
