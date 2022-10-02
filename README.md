@@ -4,6 +4,11 @@ The Mile End Roulette is to be used when you don't know where to eat in Mile End
 
 https://mileend-roulette.vercel.app/
 
+## Public Data
+
+`data.json` source file is publicly available at
+https://mileend-roulette.vercel.app/data.json
+
 ## Public API access (for developers)
 
 API endpoint: https://mileend-roulette.vercel.app/api
