@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Head from 'next/head'
 import { useState } from 'react'
 import establishments from '../data.json'
