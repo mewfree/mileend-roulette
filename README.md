@@ -8,14 +8,14 @@ http://www.mileendroulette.com
 
 API endpoint: http://www.mileendroulette.com
 
-- `/[state]/list`: lists all establishments
+- `/[state]`: lists all establishments
 - `/[state]/random`: randomly selects one establishment
 
 The three available states are:
 
-- hungry: for restaurants
-- thirsty: for bars
-- both: for bars where you can eat / restaurants where you can have alcoholic drinks
+- `hungry`: for restaurants
+- `thirsty`: for bars
+- `both`: for bars where you can eat / restaurants where you can have alcoholic drinks
 
 Example:
 
