@@ -28,4 +28,4 @@ The result is in JSON format:
 
 #### Example
 
-> {"name":"Comptoir 21","address":"21 Saint-Viateur O"}
+> {"name":"Arahova Souvlaki","address":"256 Saint-Viateur O","comment":"Greek","lunch":true}
