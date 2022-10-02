@@ -19,9 +19,9 @@ function HomePage() {
       <h1>Mile End Roulette</h1>
       <div>Welcome to Mile End Roulette</div>
       <div>{establishment ? establishment.name : ''}</div>
-      <button onClick={() => filterRandom(e => e.lunch)}>I'm hungry</button>
-      <button onClick={() => filterRandom(e => e.drink)}>I'm thirsty</button>
-      <button onClick={() => filterRandom(e => e.lunch && e.drink)}>I'm both</button>
+      <button onClick={() => filterRandom(e => e.lunch)}>I&apos;m hungry</button>
+      <button onClick={() => filterRandom(e => e.drink)}>I&apos;m thirsty</button>
+      <button onClick={() => filterRandom(e => e.lunch && e.drink)}>I&apos;m both</button>
     </>
   )
 }
