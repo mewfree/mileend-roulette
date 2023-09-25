@@ -324,10 +324,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.7.23":
-  version: 18.7.23
-  resolution: "@types/node@npm:18.7.23"
-  checksum: 2c8df0830d8345e5cd1ca17feb9cf43fa667aae749888e0a068c5c1b35eaedd2f9b24ed987a0758078395edf7a03681e5e0b7790a518ff7afe1ff6d8459f7b4a
+"@types/node@npm:20.7.0":
+  version: 20.7.0
+  resolution: "@types/node@npm:20.7.0"
+  checksum: 1b2919925c213f4d2039ada7a8354c998e144f7291db8d719ef58ea9924ab636c113690073b0ec3b82ba62907385f7e0f51e9d1583c1a818776daa5156d3a590
   languageName: node
   linkType: hard
 
@@ -2330,7 +2330,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mileend-roulette@workspace:."
   dependencies:
-    "@types/node": 18.7.23
+    "@types/node": 20.7.0
     "@types/react": 18.0.21
     autoprefixer: ^10.4.15
     eslint: 8.49.0
