@@ -351,14 +351,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.48":
-  version: 18.2.48
-  resolution: "@types/react@npm:18.2.48"
+"@types/react@npm:18.2.67":
+  version: 18.2.67
+  resolution: "@types/react@npm:18.2.67"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: c9ca43ed2995389b7e09492c24e6f911a8439bb8276dd17cc66a2fbebbf0b42daf7b2ad177043256533607c2ca644d7d928fdfce37a67af1f8646d2bac988900
+  checksum: 9e48122b0e8d0ae20601f613aca32289eeb94d55c58ff03a7dc532d80ed289a1ba9715f14b773bd926ccdd63e503717f14264143ef531dc370063abe09dee0b2
   languageName: node
   linkType: hard
 
@@ -2771,7 +2771,7 @@ __metadata:
   resolution: "mileend-roulette@workspace:."
   dependencies:
     "@types/node": 20.11.19
-    "@types/react": 18.2.48
+    "@types/react": 18.2.67
     autoprefixer: ^10.4.17
     eslint: 8.56.0
     eslint-config-next: latest
